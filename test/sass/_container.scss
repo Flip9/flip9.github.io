@@ -1,0 +1,45 @@
+/*=======================================*/
+/*===============WRAPPER=================*/
+/*=======================================*/
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.right {
+	float: right;
+}
+
+.left {
+	float: left;
+} 
+
+.container {
+	width: 100%;
+	max-width: 1235px;
+	margin: 0 auto;
+}
+
+.main-button {
+	padding: 0 30px;
+	background: #998675;
+	border: 0;
+	border-bottom: solid 3px #736357;
+	border-radius: 4px;
+	font: bold 14px/50px sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}
+
+.main-button-top {
+	margin-top: 40px;
+	padding: 0 30px;
+	background: #998675;
+	border: 0;
+	border-bottom: solid 3px #736357;
+	border-radius: 4px;
+	font: bold 14px/50px sans-serif;
+	color: #fff;
+	text-transform: uppercase;
+}

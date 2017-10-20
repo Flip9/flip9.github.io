@@ -1,0 +1,58 @@
+/*=======================================*/
+/*================MEDIA==================*/
+/*=======================================*/
+
+@media (max-width: 1200px) {
+	.realization-section {
+		background-size: 100% 60%;
+	}
+	
+}
+
+@media (max-width: 1000px) {
+	.info {
+		& li {
+			width: 34%;
+		}
+	}
+}
+
+
+@media (max-width: 840px) {
+	.realization-section {
+		background-size: 100% 50%;
+	}
+}
+
+@media (max-width: 650px) {
+	body {
+		font-size: 8pt;
+	}
+	.realization-section {
+		background-size: 100% 50%;
+		& h2 {
+		margin-bottom: 10px;
+		}
+	}
+}
+
+@media (max-width: 450px) {
+	.realization-section {
+		background-size: 100% 40%;
+	}
+
+	.info {
+		& li {
+			width: 90%;
+		}
+	}
+}
+
+@media (max-width: 350px) {
+	body {
+		font-size: 6pt;
+	}
+	.realization-section {
+		background-size: 100% 30%;
+	}
+}
