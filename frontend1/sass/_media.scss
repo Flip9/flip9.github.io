@@ -1,0 +1,136 @@
+/*=============================================================*/
+/*============================MEDIA============================*/
+/*=============================================================*/
+
+@media (max-height: 600px) {
+	.welcome-text {
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+    }
+    .submit {
+	top: -50px;
+    }
+    .jobs{
+	margin-top: -10px;
+    }
+}
+
+@media (max-height: 330px) {
+	.logo {
+	max-width: 50px;
+	&:before {
+		 content:"";
+		 top: -95%;
+		 left: -55%;
+	}
+    }
+    .submit {
+    	top: 0;
+		margin-bottom: 15px;
+	}
+	.jobs{
+	    margin-top: 0;
+    }
+}
+
+@media (max-width: 1000px) {
+    .block-2 {
+  	position: relative;
+  	margin-top: 150px;
+ 	padding: 20px 0;
+    background: #44a36f url(../img/comp2.png) no-repeat center bottom;
+	background-size: 30%;
+}
+
+.float-l {
+	padding: 0 20px 0 20px;
+	margin-bottom: 60px;
+	& button {
+		color: #fff;
+		background: #44a36f;
+		border: solid 3px #fff;
+		border-radius: 10px;
+		font: 27px/45px sans-serif;
+		padding: 0 30px;
+		cursor: pointer;
+	}
+}
+}
+
+@media (max-width: 700px) {
+    .block-1 {
+    	padding: 170px 20px 0 20px;
+    	background: #5fc18b url(../img/tablet1.png) no-repeat left 20% top 65px;
+		background-size: 50%;
+	}
+}
+
+@media (max-width: 600px) {
+    .welcome-text {
+		& h2{
+		font: 30px/50px sans-serif;
+		}
+		& p {
+		font: bold 30px/50px sans-serif;
+		}
+    }
+}
+
+@media (max-width: 510px) {
+    .jobs-section {
+		& li {
+		width: 50%;
+		}
+	}
+    .jobs{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+    }
+
+    .sub-form {
+	width: 250px;
+	height: 250px;
+	top: 20%;
+	left: 50%;
+	-webkit-transform: translateX(-50%);
+	-ms-transform: translateX(-50%);
+	transform: translateX(-50%);
+	& input {
+		margin: 5px 0;
+		width: 40%;
+		padding: 0 15px;
+	}
+	& input:first-child {
+		margin: 0 0;
+		margin-top: 35px;
+	}
+	& textarea {
+		width: 40%;
+		padding: 0 15px;
+	}
+	& button {
+		margin-top: 10px;
+		width: 30px;
+		height: 30px;
+	}
+}
+}
+
+@media (max-width: 345px){
+    .submit {
+    	top: 0;
+		width: 100%;
+		margin-bottom: 15px;
+	}
+	.jobs{
+	    margin-top: 0;
+    }
+}

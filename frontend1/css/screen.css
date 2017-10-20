@@ -1,0 +1,135 @@
+/*=============================================================*/
+/*=====================RESET DEFAULT STYLES====================*/
+/*=============================================================*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video { margin: 0; padding: 0; border: 0; font: inherit; font-size: 100%; vertical-align: baseline; }
+
+html { line-height: 1; }
+
+ol, ul { list-style: none; }
+
+table { border-collapse: collapse; border-spacing: 0; }
+
+caption, th, td { text-align: left; font-weight: normal; vertical-align: middle; }
+
+q, blockquote { quotes: none; }
+q:before, q:after, blockquote:before, blockquote:after { content: ""; content: none; }
+
+a img { border: none; }
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary { display: block; }
+
+/*=============================================================*/
+/*============================FONTS============================*/
+/*=============================================================*/
+@font-face { font-family: "Bold"; src: url("../fonts/OpenSans-Bold.ttf") format("truetype"); }
+@font-face { font-family: "Light"; src: url("../fonts/OpenSans-Light.ttf") format("truetype"); }
+@font-face { font-family: "Regular"; src: url("../fonts/OpenSans-Regular.ttf") format("truetype"); }
+@font-face { font-family: "ExtraBold"; src: url("../fonts/OpenSans-ExtraBold.ttf") format("truetype"); }
+@font-face { font-family: "Italic"; src: url("../fonts/OpenSans-Italic.ttf") format("truetype"); }
+@font-face { font-family: "SemiBold"; src: url("../fonts/OpenSans-Semibold.ttf") format("truetype"); }
+/*=============================================================*/
+/*===========================WRAPPER===========================*/
+/*=============================================================*/
+.clearfix:after { content: ""; display: table; clear: both; }
+
+.container { width: 100%; max-width: 890px; margin: 0 auto; }
+
+body { width: 100%; }
+
+/*=============================================================*/
+/*=====================WELCOME-SECTION=========================*/
+/*=============================================================*/
+.welcome-section { position: relative; height: 100vh; background: #60534d url("../img/bg-header.jpg") no-repeat center; background-size: cover; text-align: center; }
+
+header { text-align: center; }
+
+.logo { position: absolute; width: 100%; max-width: 110px; height: auto; top: 20%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+.logo:before { content: ""; width: 150%; height: 200%; display: block; z-index: -1; position: absolute; padding: 15px; background: #000; top: -80%; left: -39%; -webkit-border-radius: 50%; -moz-border-radius: 50%; border-radius: 50%; }
+.logo img { width: 100%; max-width: 100px; height: auto; }
+
+.welcome-text { width: 100%; position: absolute; top: 40%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); /*padding: 34% 0 5%;*/ text-align: center; color: #fff; text-transform: uppercase; }
+.welcome-text h2 { font: 50px/50px sans-serif; }
+.welcome-text p { font: bold 50px/50px sans-serif; }
+
+/*=============================================================*/
+/*======================JOBS-SECTION===========================*/
+/*=============================================================*/
+.submit { position: relative; top: -200px; margin: 0 auto; width: 335px; background-color: #fff; padding: 28px 0; border-radius: 2px; text-align: center; box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+.submit form { margin-bottom: 23px; }
+.submit form input { padding: 0 5px; width: 80%; border-radius: 4px; font: 15px/28px sans-serif; }
+.submit img { width: 100%; margin-bottom: 23px; }
+.submit p { color: #938e8e; font: 15px/15px sans-serif; margin: 0 50px 23px; }
+.submit button { cursor: pointer; padding: 0 30px; text-transform: uppercase; background: #227dd3; border: none; border-radius: 2px; color: #fff; font: 25px/40px sans-serif; }
+
+.jobs-section { width: 100%; }
+.jobs-section li { width: 30%; height: 150px; padding: 0 0 0 100px; margin-bottom: 15px; }
+.jobs-section li h4 { font: bold 27px/35px sans-serif; margin-top: 10px; }
+.jobs-section li p { color: #4f4e4e; font: 14px/14px sans-serif; margin-bottom: 10px; }
+
+.jobs { margin-top: -150px; display: flex; justify-content: space-around; }
+
+.pages { background: url(../img/pages.png) no-repeat; background-size: 91px; }
+
+.camera { background: url(../img/camera.png) no-repeat; background-size: 91px; }
+
+/*=============================================================*/
+/*====================CONTENT-SECTION==========================*/
+/*=============================================================*/
+.content-section { background: #308355; color: #fff; }
+.content-section p { padding-bottom: 40px; font: 14px/23px sans-serif; }
+.content-section h3 { padding-bottom: 40px; font: 39px/39px sans-serif; }
+
+.block-1 { background: #5fc18b; padding: 268px 10px 0; background: #5fc18b url(../img/tablet1.png) no-repeat left 28% top 65px; background-size: 40%; }
+.block-1 p:last-child { padding-bottom: 0; }
+.block-1 h3 { text-align: center; }
+
+.block-2 { position: relative; margin-top: 150px; padding: 20px 0; background: #44a36f url(../img/comp1.png) no-repeat; background-position: left bottom; background-size: 30%; }
+.block-2 p:last-child { padding-bottom: 0; }
+.block-2:after { content: ""; position: absolute; height: 105px; width: 100%; top: -105px; background: #44a36f; clip-path: polygon(0 100%, 100% 0, 100% 100%, 0 100%); }
+.block-2:before { content: ""; position: absolute; height: 150px; width: 100%; top: -150px; background: #5fc18b; clip-path: polygon(0 0, 100% 0, 100% 24%, 0 100%); }
+
+.float-l { padding: 0 20px 0 28%; margin-bottom: 60px; }
+.float-l button { color: #fff; background: #44a36f; border: solid 3px #fff; border-radius: 10px; font: 27px/45px sans-serif; padding: 0 30px; cursor: pointer; }
+
+/*=============================================================*/
+/*=====================SUBMIT-SECTION==========================*/
+/*=============================================================*/
+.submit-section { position: relative; text-align: center; }
+.submit-section iframe { display: block; }
+
+.sub-form { width: 430px; height: 430px; background-color: rgba(255, 255, 255, 0.8); position: absolute; border-radius: 50%; top: 10%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); }
+.sub-form input { margin: 15px 0; width: 60%; padding: 0 15px; font: 14px/35px sans-serif; }
+.sub-form input:first-child { margin: 0 0; margin-top: 110px; }
+.sub-form textarea { font: 14px/35px sans-serif; width: 60%; padding: 0 15px; }
+.sub-form button { margin-top: 35px; width: 63px; height: 63px; background: url(../img/arrow.png); background-size: cover; border: none; cursor: pointer; }
+
+/*=============================================================*/
+/*============================FOOTER===========================*/
+/*=============================================================*/
+.footer-section { padding: 15px 0; background: #43a06d; text-align: center; color: #fff; font: 14px/14px sans-serif; }
+
+/*=============================================================*/
+/*============================MEDIA============================*/
+/*=============================================================*/
+@media (max-height: 600px) { .welcome-text { top: 50%; -webkit-transform: translateY(-50%); -ms-transform: translateY(-50%); transform: translateY(-50%); left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+  .submit { top: -50px; }
+  .jobs { margin-top: -10px; } }
+@media (max-height: 330px) { .logo { max-width: 50px; }
+  .logo:before { content: ""; top: -95%; left: -55%; }
+  .submit { top: 0; margin-bottom: 15px; }
+  .jobs { margin-top: 0; } }
+@media (max-width: 1000px) { .block-2 { position: relative; margin-top: 150px; padding: 20px 0; background: #44a36f url(../img/comp2.png) no-repeat center bottom; background-size: 30%; }
+  .float-l { padding: 0 20px 0 20px; margin-bottom: 60px; }
+  .float-l button { color: #fff; background: #44a36f; border: solid 3px #fff; border-radius: 10px; font: 27px/45px sans-serif; padding: 0 30px; cursor: pointer; } }
+@media (max-width: 700px) { .block-1 { padding: 170px 20px 0 20px; background: #5fc18b url(../img/tablet1.png) no-repeat left 20% top 65px; background-size: 50%; } }
+@media (max-width: 600px) { .welcome-text h2 { font: 30px/50px sans-serif; }
+  .welcome-text p { font: bold 30px/50px sans-serif; } }
+@media (max-width: 510px) { .jobs-section li { width: 50%; }
+  .jobs { display: flex; flex-direction: column; justify-content: space-around; align-items: center; }
+  .sub-form { width: 250px; height: 250px; top: 20%; left: 50%; -webkit-transform: translateX(-50%); -ms-transform: translateX(-50%); transform: translateX(-50%); }
+  .sub-form input { margin: 5px 0; width: 40%; padding: 0 15px; }
+  .sub-form input:first-child { margin: 0 0; margin-top: 35px; }
+  .sub-form textarea { width: 40%; padding: 0 15px; }
+  .sub-form button { margin-top: 10px; width: 30px; height: 30px; } }
+@media (max-width: 345px) { .submit { top: 0; width: 100%; margin-bottom: 15px; }
+  .jobs { margin-top: 0; } }
