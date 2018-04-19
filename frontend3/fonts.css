@@ -1,0 +1,24 @@
+@font-face {
+	font-family: "Kerola";
+	src: url('fonts/kerola-normal.woff2') format('woff2');
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Kerola";
+	src: url('fonts/kerola-bold.woff2') format('woff2');
+	font-weight: 700;
+}
+
+@font-face {
+	font-family: "Kerola";
+	src: url('fonts/kerola.woff2') format('woff2');
+	font-weight: 500;
+}
+
+
+@font-face {
+	font-family: "Kerola";
+	src: url('fonts/kerola-light.woff2') format('woff2');
+	font-weight: 200;
+}
